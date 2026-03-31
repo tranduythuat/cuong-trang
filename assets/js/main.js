@@ -90,9 +90,11 @@
       },
     });
 
-    tl.from(".color1", { x: -100, opacity: 0, duration: 0.8 })
-      .from(".color2", { x: -100, opacity: 0, duration: 0.8 }, "-=0.4")
-      .from(".color3", { x: -100, opacity: 0, duration: 0.8 }, "-=0.4");
+    tl.from(".swatch1", { x: -100, opacity: 0, duration: 0.8 })
+      .from(".swatch2", { x: -100, opacity: 0, duration: 0.8 }, "-=0.4")
+      .from(".swatch3", { x: -100, opacity: 0, duration: 0.8 }, "-=0.4")
+      .from(".swatch4", { x: -100, opacity: 0, duration: 0.8 }, "-=0.4")
+      .from(".swatch5", { x: -100, opacity: 0, duration: 0.8 }, "-=0.4");
   }
 
   function initPage() {
@@ -680,7 +682,7 @@
     initAnimations();
     initSwiper();
     // initMusic();
-    // initDresscodeAnimation();
+    initDresscodeAnimation();
     initTimeline();
     initFAQ();
     initRSVP();

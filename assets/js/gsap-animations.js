@@ -50,7 +50,7 @@ function gsapFadeIn(element, options = {}) {
   const {
     delay = 0,
     duration = 1,
-    scrollStart = "top 85%"
+    scrollStart = "top 90%"
   } = options;
 
   gsap.fromTo(
@@ -417,7 +417,7 @@ function gsapRollInLeft(selector) {
       scrollTrigger: {
         trigger: el,
         start: "top 85%",
-        toggleActions: "play none none none",
+        toggleActions: "play none none reverse",
       },
     });
   });
@@ -436,7 +436,7 @@ function gsapRollInRight(selector) {
       scrollTrigger: {
         trigger: el,
         start: "top 85%",
-        toggleActions: "play none none none",
+        toggleActions: "play none none reverse",
       },
     });
   });
