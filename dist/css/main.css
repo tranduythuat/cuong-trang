@@ -650,7 +650,6 @@ section {
   background: url("../../assets/images/picture01.png") no-repeat center/cover;
   top: 12%;
   left: 15%;
-  position: relative;
 }
 .pictures .content .picture02 {
   max-width: 217px;
