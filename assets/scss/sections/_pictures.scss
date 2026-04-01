@@ -87,6 +87,14 @@
         }
 
         @media (max-width: 500px) {
+            .flower {
+                max-width: calc((80 / 500) * 100vw);
+            }
+    
+            .flower_pic04 {
+                max-width: calc((91 / 500) * 100vw);
+            }
+
             .picture01 {
                 max-width: calc((198 / 500) * 100vw);
                 .flower {

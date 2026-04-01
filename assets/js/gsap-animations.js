@@ -129,6 +129,7 @@ function gsapFadeInThenYoyo(selector) {
       gsap.to(el, {
         rotation: () => gsap.utils.random(-6, 6),
         y: "+=3",
+        rotateZ: 5,
         duration: 2,
         ease: "sine.inOut",
         yoyo: true,
