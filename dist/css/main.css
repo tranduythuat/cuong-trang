@@ -81,7 +81,7 @@ section {
 
 .container {
   max-width: 500px;
-  background: url("../../assets/images/flowers_bg.png") no-repeat 50% 99.5%/contain, url("../../assets/images/base_bg.png") no-repeat 50% 100%/120%;
+  background: url("../../assets/images/flowers_bg.png") no-repeat 50% 99.5%/contain, url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/cuong-trang/base_bg.webp") no-repeat 50% 100%/120%;
   width: 100%;
   height: 100%;
   position: relative;
@@ -274,7 +274,7 @@ section {
 .hero {
   width: 100%;
   aspect-ratio: 500/730;
-  background: url("../../assets/images/IMG_5293.GIF") no-repeat 52% 63%/164%, url("../../assets/images/hero.png") no-repeat center/cover;
+  background: url("../../assets/images/IMG_5293.GIF") no-repeat 52% 63%/164%, url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/cuong-trang/hero.webp") no-repeat center/cover;
 }
 .hero .content {
   width: 100%;
@@ -439,7 +439,7 @@ section {
 .timeline .content {
   width: 100%;
   aspect-ratio: 500/1052;
-  background: url("../../assets/images/timeline_bg.png") no-repeat center/cover;
+  background: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/cuong-trang/timeline_bg.webp") no-repeat center/cover;
   display: flex;
   justify-content: start;
   flex-direction: column;
@@ -619,6 +619,31 @@ section {
   position: absolute;
   width: 100%;
 }
+.pictures .content .flower {
+  max-width: 80px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+.pictures .content .flower_left {
+  top: 27%;
+  left: 10%;
+  z-index: 8;
+}
+.pictures .content .flower_right {
+  top: 36%;
+  left: 43%;
+  z-index: 5;
+}
+.pictures .content .flower_pic04 {
+  max-width: 91px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 3%;
+  left: 41%;
+  z-index: 7;
+}
 .pictures .content .picture01 {
   max-width: 198px;
   aspect-ratio: 198/262;
@@ -626,21 +651,6 @@ section {
   top: 12%;
   left: 15%;
   position: relative;
-}
-.pictures .content .picture01 .flower {
-  max-width: 80px;
-  width: 100%;
-  height: auto;
-  position: absolute;
-}
-.pictures .content .picture01 .flower_left {
-  bottom: 5%;
-  left: -10%;
-}
-.pictures .content .picture01 .flower_right {
-  bottom: -20%;
-  right: -10%;
-  z-index: 5;
 }
 .pictures .content .picture02 {
   max-width: 217px;
@@ -662,18 +672,9 @@ section {
   max-width: 234px;
   aspect-ratio: 234/284;
   background: url("../../assets/images/picture04.png") no-repeat center/cover;
-  top: 27%;
+  top: 64%;
   left: 8%;
-  position: relative;
   z-index: 7;
-}
-.pictures .content .picture04 .flower_pic04 {
-  max-width: 91px;
-  width: 100%;
-  height: auto;
-  position: absolute;
-  bottom: 15%;
-  right: -9%;
 }
 .pictures .content .picture05 {
   max-width: 249px;

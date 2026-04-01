@@ -14,6 +14,35 @@
             width: 100%;
         }
 
+        .flower {
+            max-width: 80px;
+            width: 100%;
+            height: auto;
+            position: absolute;
+        }
+
+        .flower_left {
+            top: 27%;
+            left: 10%;
+            z-index: 8;
+        }
+
+        .flower_right {
+            top: 36%;
+            left: 43%;
+            z-index: 5;
+        }
+
+        .flower_pic04 {
+            max-width: 91px;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            bottom: 3%;
+            left: 41%;
+            z-index: 7;
+        }
+
         .picture01 {
             max-width: 198px;
             aspect-ratio: 198 / 262;
@@ -21,22 +50,6 @@
             top: 12%;
             left: 15%;
             position: relative;
-            .flower {
-                max-width: 80px;
-                width: 100%;
-                height: auto;
-                position: absolute;
-            }
-
-            .flower_left {
-                bottom: 5%;
-                left: -10%;
-            }
-            .flower_right {
-                bottom: -20%;
-                right: -10%;
-                z-index: 5;
-            }
         }
 
         .picture02 {
@@ -61,18 +74,9 @@
             max-width: 234px;
             aspect-ratio: 234 / 284;
             background: url('../../assets/images/picture04.png') no-repeat center / cover;
-            top: 27%;
+            top: 64%;
             left: 8%;
-            position: relative;
             z-index: 7;
-            .flower_pic04 {
-                max-width: 91px;
-                width: 100%;
-                height: auto;
-                position: absolute;
-                bottom: 15%;
-                right: -9%;
-            }
         }
 
         .picture05 {

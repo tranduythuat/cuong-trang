@@ -84,7 +84,7 @@
   function initDresscodeAnimation() {
     const tl = gsap.timeline({
       scrollTrigger: {
-        trigger: ".colors-grid",
+        trigger: ".palette",
         start: "top 85%",
         toggleActions: "play none none reverse",
       },
@@ -520,8 +520,8 @@
     const {
       name,
       confirm,
+      guest_number,
       wish,
-      stay,
     } = data;
 
     // =========================
@@ -563,7 +563,7 @@
       didOpen: () => Swal.showLoading(),
     });
 
-    const sheetURL = "?sheet=confirm";
+    const sheetURL = "https://script.google.com/macros/s/AKfycbxgw1XAtKhUNH7CSybnmEqaxnG5MC3KLIW6EKY360rcguiBOJPFFqt3wnw7TTsh6IMp/exec?sheet=confirm";
 
     try {
       const res = await fetch(sheetURL, {
@@ -572,8 +572,8 @@
         body: new URLSearchParams({
           name,
           confirm,
+          guest_number,
           wish,
-          stay,
         }),
       });
 
